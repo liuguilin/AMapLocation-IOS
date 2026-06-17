@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  LocationApp
+
+  Created by 大伊 on 2025/9/21.
+  
+*/
+"今日问卷（点击可填写）" = "Today's Survey (Click to Fill)";
+"早问卷（8:00起填写）" = "Morning Survey (Available from 8:00)";
+"晚问卷（20:00起填写）" = "Evening Survey (Available from 20:00)";
+"7天内未填写问卷（点击可填写）" = "Unfilled Survey in 7 Days (Click to Fill)";
+"早问卷" = "Morning Survey";
+"晚问卷" = "Evening Survey";
+"⚠️ 请勿关闭，避免数据丢失" = "⚠️ Do not close to prevent data loss";
+"温馨提示" = "Reminder";
+"请打开app并且，填写问卷" = "Please open the app and complete the questionnaire";

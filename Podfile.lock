@@ -19,7 +19,6 @@ PODS:
   - GoogleMaps/Maps (10.0.0)
   - JSONModel (1.8.0)
   - Masonry (1.1.0)
-  - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.9)
   - SDWebImage (5.21.0):
     - SDWebImage/Core (= 5.21.0)
@@ -30,7 +29,6 @@ DEPENDENCIES:
   - GoogleMaps (= 10.0.0)
   - JSONModel
   - Masonry
-  - MBProgressHUD
   - MJRefresh
   - SDWebImage
 
@@ -40,7 +38,6 @@ SPEC REPOS:
     - GoogleMaps
     - JSONModel
     - Masonry
-    - MBProgressHUD
     - MJRefresh
     - SDWebImage
 
@@ -49,10 +46,9 @@ SPEC CHECKSUMS:
   GoogleMaps: 9ce9c898074e96655acaf1ba5d6f85991ecee7a3
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
 
-PODFILE CHECKSUM: af14c7ac6759c3abe4b060816bd3b508d5954995
+PODFILE CHECKSUM: bc5b3c44be2bdf68dbf7f3c6131ba5111a9ec8b6
 
 COCOAPODS: 1.16.2

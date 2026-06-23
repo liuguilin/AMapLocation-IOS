@@ -11,7 +11,6 @@
 #pragma mark - 第三方库
 #import <AFNetworking/AFNetworking.h>
 #import <SDWebImage/UIImageView+WebCache.h>
-//#import <MBProgressHUD/MBProgressHUD.h>
 //#import <Masonry/Masonry.h>
 #import <MJRefresh/MJRefresh.h>
 

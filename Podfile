@@ -35,6 +35,20 @@ def add_privacy_manifest_to_target(installer, target_name, manifest_relative_pat
   end
 end
 
+def remove_private_netinet6_imports
+  Dir.glob(File.join(__dir__, 'Pods/**/*.{m,mm}')).each do |file|
+    content = File.read(file)
+    next unless content.include?('#import <netinet6/in6.h>')
+
+    patched = content.gsub("#import <netinet6/in6.h>\n", '')
+    next if patched == content
+
+    File.chmod(0o644, file)
+    File.write(file, patched)
+    puts "Removed private netinet6/in6.h import from #{file}"
+  end
+end
+
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
@@ -45,4 +59,6 @@ post_install do |installer|
   PRIVACY_MANIFEST_PODS.each do |pod_name, manifest_path|
     add_privacy_manifest_to_target(installer, pod_name, manifest_path)
   end
+
+  remove_private_netinet6_imports
 end
